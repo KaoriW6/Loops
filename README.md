@@ -1,7 +1,7 @@
 # Loop Manager Example:
 ```lua
 -- // Made by @hikari_kuroi (Discord)~
-Env.LoopModule, Env.LoopManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/KaoriW6/Loops/main/Manager.lua"))();
+local LoopModule, LoopManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/KaoriW6/Loops/main/Manager.lua"))();
 Env.Debug = true -- // Debug Mode.
 
 --[[ RenderStep Example:
@@ -66,7 +66,7 @@ shared.Settings = {
     },
 };
 
-Env.LoopModule, Env.LoopManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/KaoriW6/Loops/main/Manager.lua"))();
+local LoopModule, LoopManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/KaoriW6/Loops/main/Manager.lua"))();
 Env.Debug = true -- // Debug Mode.
 
 -- // Obsidian Lib UI
@@ -107,7 +107,7 @@ AimbotOptionsGroup:AddToggle("AimbotWallCheckToggle",{
 
 - Set up
 ```lua
-Env.LoopModule, Env.LoopManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/KaoriW6/Loops/main/Manager.lua"))();
+local LoopModule, LoopManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/KaoriW6/Loops/main/Manager.lua"))();
 Env.Debug = true -- // Debug Mode.
 ```
 
